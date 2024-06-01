@@ -27,6 +27,16 @@
 <br>
 
 <body>
-   <h1>Formulario</h1>
+    <form id="form" action="" class="form">
+        <h3 class="tag"><span>Consultas</span></h3>
+        <label for="name">Nombre Completo <span>*</span></label>
+        <input name="name" required type="text" id="name" placeholder="Nombre">
+        <label for="email">Correo electrónico <span>*</span></label>
+        <input name="email" type="text" id="email" required placeholder="Correo electronico">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn primary full">enviar mensaje</button>
+    </form>
+    <script defer src="codigoForm.js"></script>
 </body>
 </html>
